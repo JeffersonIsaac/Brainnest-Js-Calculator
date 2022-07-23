@@ -1,0 +1,56 @@
+/* @font-face {
+    font-family:"Roboto-Bold";
+    src: url(/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:"Roboto-thin";
+    src: url(/Roboto/Roboto-Thin.ttf);
+}     */
+body{
+    overflow: hidden;
+}
+main{
+    display: flex;
+    min-height: 95vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(190, 204, 201);
+}
+#container{
+    background-color: rgb(75, 108, 100);
+    border-radius: 34px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(9em, auto) repeat(5, 6em);
+    gap: 2px;
+    padding: 10px;
+    box-shadow: 12px 10px 0px 5px #00000040;
+}
+#display{
+    background-color: rgb(247, 248, 247);
+    font-family: Roboto-Bold, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    grid-column: 1/-1;
+    flex-direction: column;
+    display: flex;
+    padding: 15px;
+    margin: 10px 10px 20px;
+    border-radius: 34px;
+}
+
+button{
+    font-family: Roboto-thin, Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 100em ;
+    margin: 5px;
+    padding: 0px;
+    font-size: 2em;
+    box-shadow: 5px 5px 10px -3px #00000040;
+}
+button:focus{
+    background-color: rgb(75, 108, 100);
+}
