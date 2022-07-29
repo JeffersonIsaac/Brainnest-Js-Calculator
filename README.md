@@ -1,2 +1,2 @@
 # Js-Calculator
-https://jeffersonisaac.github.io/Js-Calculator/
+https://jeffersonisaac.github.io/Brainnest-Js-Calculator/
